@@ -1,0 +1,8 @@
+{
+  "name": "House of Septia - Fashion Boutique & Marketplace",
+  "description": "Webstore fashion cewek elegan House of Septia dengan katalog 12 produk pilihan, keranjang belanja, checkout bukti transfer, serta admin panel komprehensif kelola stok, order, pelanggan, dan laporan sales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

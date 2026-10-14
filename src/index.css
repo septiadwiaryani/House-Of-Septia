@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  /* Earth Tone Palette */
+  --color-earth-sand: #F7F3EC;
+  --color-earth-linen: #EFE8DC;
+  --color-earth-card: #FCFAF6;
+  --color-earth-border: #E2D7C7;
+  --color-earth-bark: #382A22;
+  --color-earth-deep: #2A1F18;
+  --color-earth-clay: #A45A38;
+  --color-earth-terracotta: #BD6B46;
+  --color-earth-olive: #5E694A;
+  --color-earth-ochre: #B67E49;
+  --color-earth-muted: #7E6E63;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F7F3EC;
+  color: #382A22;
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+/* Custom Earth Tone scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #EFE8DC;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4C5B2;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B8A590;
+}
